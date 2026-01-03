@@ -1,112 +1,74 @@
-# 🏆 Persian eFootball Downloader
+# 🏆 Solitpy: The Smart Chemistry & AI Assistant
 
-*اپلیکیشن مدیریت و دانلود دیتای بازی eFootball برای اندروید*
+*اپلیکیشن تخصصی محاسبات محلول‌های شیمیایی و دستیار هوشمند مبتنی بر AI*
 
-![Kotlin](https://img.shields.io/badge/Kotlin-1.8-blue) ![Android](https://img.shields.io/badge/Android-13+-green) ![WorkManager](https://img.shields.io/badge/WorkManager-Coroutines-orange) ![License](https://img.shields.io/badge/License-MIT-blue)
+![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue) ![Android](https://img.shields.io/badge/Android-7.0+-green) ![Firebase](https://img.shields.io/badge/Firebase-Integrated-orange) ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ---
 
 ## 🌟 Overview | معرفی اپلیکیشن
 
 **English:**
-Persian eFootball Downloader is an Android app that enables downloading eFootball game data with resume support, automatic ZIP extraction, and progress notifications.
+**Solitpy** is a high-performance Android utility that bridges the gap between scientific calculations and artificial intelligence. It features a robust Chemistry Concentration Converter and a GPT-3.5 powered ChatBot with a built-in monetization system via Café Bazaar.
 
 **فارسی:**
-Persian eFootball Downloader یک اپلیکیشن اندرویدی است که امکان دانلود دیتای بازی eFootball با قابلیت ادامه دانلود، استخراج خودکار فایل ZIP و نمایش پیشرفت در نوتیفیکیشن‌ها را فراهم می‌کند.
+**Solitpy** یک اپلیکیشن کاربردی و قدرتمند اندرویدی است که محاسبات علمی شیمی را با هوش مصنوعی ترکیب کرده است. این برنامه شامل یک مبدل پیشرفته غلظت محلول‌ها و یک چت‌بات هوشمند (GPT-3.5) است که سیستم پرداخت درون‌برنامه‌ای کافه‌بازار (Poolakey) را برای مدیریت اشتراک‌ها و محدودیت‌ها در خود جای داده است.
 
 ---
 
-## 🎯 Features | ویژگی‌ها
+## 🎯 Features | ویژگی‌های کلیدی
 
-| Feature                      | Description (EN)                                                         | توضیح فارسی                                         |
-| ---------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------- |
-| ⚡ Chunked Download           | Download files in multiple parts for faster downloads and resume support | دانلود چندتکه برای سرعت بالاتر و امکان ادامه دانلود |
-| 🗜️ Automatic ZIP Extraction | Extracts ZIP files to device storage automatically                       | استخراج خودکار فایل‌های ZIP                         |
-| 🔔 Foreground Notifications  | Shows download progress using notifications                              | نمایش پیشرفت دانلود با نوتیفیکیشن                   |
-| ⏸️ Pause & Resume            | Pause or continue download anytime                                       | توقف و ادامه دانلود در هر زمان                      |
-| 🔑 Dynamic Permissions       | Requests storage & notification permissions at runtime                   | مدیریت پویا دسترسی حافظه و نوتیفیکیشن               |
-| 📱 Android Version Support   | Works on Android 6 (API 23) up to Android 13+ (API 36)                   | سازگار با نسخه‌های مختلف اندروید                    |
-
----
-
-## 🛠️ Technologies | تکنولوژی‌ها و روش‌های مدرن
-
-* **Kotlin & Coroutines** – مدیریت همزمانی دانلود چندتکه بدون بلاک کردن UI
-* **WorkManager + CoroutineWorker** – اجرای امن دانلود در پس‌زمینه با امکان Resume و مدیریت Lifecycle
-* **OkHttp** – انجام درخواست‌های HTTP با قابلیت Range و Resume
-* **Jetpack Compose** – رابط کاربری مدرن و واکنش‌گرا
-* **ViewModel + StateFlow** – مدیریت حالت دانلود به صورت reactive
-* **DataStore (Preferences)** – ذخیره پایدار وضعیت دانلود و پیشرفت
-* **Foreground Service** – نمایش نوتیفیکیشن پیشرفت دانلود حتی هنگام بسته بودن اپ
-* **Scoped Storage & MANAGE_EXTERNAL_STORAGE** – مدیریت امن فایل‌ها در همه نسخه‌های اندروید
-* **Zip Extraction with Security Checks** – جلوگیری از حمله‌های Zip Slip
+| Feature | Description (EN) | توضیح فارسی |
+| :--- | :--- | :--- |
+| 🧪 **Advanced Chemistry** | Convert between Molarity, Molality, ppm, ppb, and more with high precision | تبدیل دقیق واحد‌های غلظت مانند مولاریته، مولالیته، ppm و... |
+| 🤖 **AI Chat Assistant** | Integrated GPT-3.5 Turbo for answering scientific and general questions | چت‌بات هوشمند اختصاصی برای پاسخ به سوالات علمی و عمومی |
+| 💳 **Bazaar Payment** | Secure in-app purchase system using Poolakey for AI credit recharge | سیستم پرداخت امن درون‌برنامه‌ای (پلکی) برای شارژ شانس چت |
+| 📊 **Real-time Analytics** | Firebase integration for tracking crashes and performance metrics | مانیتورینگ هوشمند کرش‌ها و عملکرد برنامه با فایربیس |
+| 🎨 **Modern UI** | Sleek navigation using ChipNavigationBar and Lottie animations | رابط کاربری مدرن با نویگیشن اختصاصی و انیمیشن‌های لاتی |
+| 🔢 **Smart Input** | Custom decimal filters for Persian/English number support | فیلتر هوشمند ورودی برای پشتیبانی از اعداد فارسی و اعشاری |
 
 ---
 
-## 📲 Screenshots | تصاویر اپلیکیشن
+## 🛠️ Technologies | تکنولوژی‌های به کار رفته
+
+* **Architecture:** استفاده از مدیریت پیشرفته Fragment‌ها و نویگیشن بار مدرن.
+* **Networking:** بهره‌گیری از **Retrofit 2 & OkHttp** برای فراخوانی API هوش مصنوعی و دریافت توکن داینامیک.
+* **AI Engine:** قدرت گرفته از مدل **GPT-3.5 Turbo** (از طریق AvalAI API).
+* **Monetization:** پیاده‌سازی **Poolakey SDK** جهت اتصال به درگاه پرداخت کافه‌بازار.
+* **Firebase Suite:** * **Analytics:** تحلیل رفتار کاربر.
+    * **Crashlytics:** گزارش‌گیری خطاها و پایداری برنامه.
+    * **Performance:** مانیتورینگ سرعت شبکه و اپلیکیشن.
+    * **FCM:** ارسال نوتیفیکیشن‌های اطلاع‌رسانی.
+* **UI Components:** استفاده از `ChipNavigationBar` و `Lottie` برای تجربه کاربری روان.
+
+---
+
+## 📲 Screenshots | تصاویر برنامه
 
 ### Screenshots / تصاویر برنامه
 
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img1.jpg" width="250" /></td>
-    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img2.jpg" width="250" /></td>
-    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img3.png" width="250" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img4.jpg" width="250" /></td>
-    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img5.jpg" width="250" /></td>
-    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img6.jpg" width="250" /></td>
+    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img1.jpg" width="250" /><br><sub>Home/Conversion</sub></td>
+    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img2.jpg" width="250" /><br><sub>AI Chat UI</sub></td>
+    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img3.png" width="250" /><br><sub>Support & Contact</sub></td>
   </tr>
 </table>
-
-
-
 
 ---
 
 ## ⚙️ How to Use | نحوه استفاده
 
-1. نصب اپلیکیشن و اجرا
-2. اجازه دسترسی حافظه و نوتیفیکیشن را بدهید
-3. شروع دانلود دیتای بازی
-4. دانلود را می‌توانید متوقف، ادامه دهید یا پس از اتمام، بازی را اجرا کنید
-
-**Pro Tip:** دانلود چندتکه باعث می‌شود فایل‌ها سریع‌تر و با قابلیت Resume دانلود شوند، حتی اگر اتصال اینترنت قطع شود.
+1. **بخش محاسبات:** واحد ورودی و خروجی را انتخاب کنید. برنامه به صورت هوشمند فیلدهای مورد نیاز (چگالی، جرم مولی و ...) را برای شما نمایش می‌دهد.
+2. **هوش مصنوعی:** در بخش AI می‌توانید سوالات خود را بپرسید. شما در ابتدا **۵ شانس رایگان** دارید.
+3. **شارژ اعتبار:** در صورت اتمام شانس‌ها، از طریق دکمه پرداخت می‌توانید اعتبار خود را از طریق کافه‌بازار افزایش دهید.
+4. **پشتیبانی:** از طریق بخش Call می‌توانید مستقیماً با توسعه‌دهنده در تلگرام یا گیت‌هاب در ارتباط باشید.
 
 ---
 
 ## 📦 Installation | نصب
 
-Clone the repository:
+Clone the repository and open it in Android Studio:
 
 ```bash
-git clone https://github.com/mr-coder20/PERSIANEFOOTBALL.git
-```
-
-Open in Android Studio and run the app on your device (Android 6+ recommended).
-
----
-
-## 💡 Notes | نکات مهم
-
-* اپلیکیشن از Foreground Service استفاده می‌کند تا دانلود حتی در پس‌زمینه ادامه یابد.
-* اگر اندروید 11+ دارید، نیاز به دسترسی کامل به فایل‌ها (MANAGE_EXTERNAL_STORAGE) است.
-* نوتیفیکیشن پیشرفت دانلود برای API 33+ نیاز به دسترسی POST_NOTIFICATIONS دارد.
-
----
-
-## 📜 License | مجوز
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📬 Contact | تماس با من
-
-
-* GitHub: [mr-coder20](https://github.com/mr-coder20)
-
----
-
-✨ Made with ❤️ and Jetpack Compose
+git clone [https://github.com/mr-coder20/solitpy.git](https://github.com/mr-coder20/solitpy.git)
