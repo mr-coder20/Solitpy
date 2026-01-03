@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_Conversion"
+        android:icon="@drawable/ic_calculate"
+        android:title="Concentration Conversion"
+        app:cnb_iconColor="@color/md_light_green_700"/>
+    <item
+        android:id="@+id/nav_call"
+        android:icon="@drawable/ic_call"
+        android:title="Contact With Us"
+        app:cnb_iconColor="#FFAB00"/>
+    <item
+        android:id="@+id/nav_ai"
+        android:icon="@drawable/ic_ai"
+        android:title="Ai Chat"
+        app:cnb_iconColor="@color/md_blue_400"/>
+
+
+
+</menu>

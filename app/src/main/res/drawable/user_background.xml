@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#E1F5FE"
+        android:endColor="#B3E5FC"
+        android:angle="270"/> <!-- زاویه گرادیانت -->
+    <corners android:radius="16dp"/> <!-- گوشه‌های گرد -->
+</shape>

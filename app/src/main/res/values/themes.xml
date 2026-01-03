@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Solitpy" parent="Theme.Material3.DayNight.NoActionBar">
+<item name="colorPrimary" >@color/md_white_1000</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+    <style name="Theme.Solitpy" parent="Base.Theme.Solitpy" />
+
+</resources>

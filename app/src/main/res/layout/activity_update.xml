@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_green_200">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/image_onboarding"
+        android:layout_width="0dp"
+
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+
+
+        app:layout_constraintBottom_toTopOf="@+id/update_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+         />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/update_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_onboarding"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="This Version is Deprecated\nPlease Update"
+
+        android:textColor="@color/md_white_1000"
+        android:textSize="17sp"
+        android:visibility="invisible"
+
+        app:layout_constraintBottom_toTopOf="@+id/layout_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_onboarding" />
+
+    <LinearLayout
+        android:id="@+id/layout_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/layout_rounded_top_white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:weightSum="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/update_btn"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/btn_selector"
+            android:text="Update"
+            android:textAllCaps="true"
+            android:textColor="@color/md_white_1000"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/layout_info"
+        app:layout_constraintStart_toStartOf="@+id/layout_info"
+        app:layout_constraintTop_toTopOf="@+id/layout_info" />
+</androidx.constraintlayout.widget.ConstraintLayout>

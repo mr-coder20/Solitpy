@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:padding="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="16dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/call_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_selector5"
+            android:drawableEnd="@drawable/ic_call"
+            android:gravity="start|center"
+            android:paddingStart="70dp"
+            android:paddingEnd="30dp"
+            android:text="Call"
+            android:textColor="@color/md_blue_grey_800"
+            android:textSize="18sp"
+            app:iconPadding="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/message_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/btn_selector5"
+
+            android:drawableEnd="@drawable/ic_message"
+            android:gravity="start|center"
+            android:paddingStart="70dp"
+            android:paddingEnd="30dp"
+            android:text="Message"
+            android:textColor="@color/md_blue_grey_800"
+            android:textSize="18sp"
+            app:iconPadding="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/github_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/btn_selector5"
+
+            android:drawableEnd="@drawable/ic_github"
+            android:gravity="start|center"
+            android:paddingStart="70dp"
+            android:paddingEnd="24dp"
+            android:text="GitHub"
+            android:textColor="@color/md_blue_grey_800"
+            android:textSize="18sp"
+            app:iconPadding="8dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/telegram_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/btn_selector5"
+            android:drawableEnd="@drawable/ic_telegram"
+            android:gravity="start|center"
+            android:paddingStart="70dp"
+            android:paddingEnd="23dp"
+
+            android:text="Telegram"
+            android:textColor="@color/md_blue_grey_800"
+            android:textSize="18sp"
+            app:iconPadding="8dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,23 @@
+<resources>
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/spinner_background</item>
+        <item name="android:textColor">@color/md_grey_800</item>
+
+    </style>
+
+
+
+
+    <style name="BottomNavigationViewStyle" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="itemIconTint">@color/colorPrimary</item>
+        <item name="itemTextColor">@color/colorPrimary</item>
+    </style>
+
+
+        <style name="DialogAnimation">
+            <item name="android:windowEnterAnimation">@anim/slide_in_top</item>
+            <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+        </style>
+
+</resources>
