@@ -16,6 +16,15 @@
 
 ---
 
+## 🎬 App Demo | نمایش ویدئویی برنامه
+
+<div align="center">
+  <video src="gif.mp4" width="300" controls autoplay loop muted></video>
+  <p><i>نمایش محیط اپلیکیشن و سرعت پاسخ‌دهی هوش مصنوعی</i></p>
+</div>
+
+---
+
 ## 🎯 Features | ویژگی‌های کلیدی
 
 | Feature | Description (EN) | توضیح فارسی |
@@ -29,46 +38,48 @@
 
 ---
 
-## 🛠️ Technologies | تکنولوژی‌های به کار رفته
+## 📲 Screenshots | تصاویر برنامه
 
-* **Architecture:** استفاده از مدیریت پیشرفته Fragment‌ها و نویگیشن بار مدرن.
-* **Networking:** بهره‌گیری از **Retrofit 2 & OkHttp** برای فراخوانی API هوش مصنوعی و دریافت توکن داینامیک.
-* **AI Engine:** قدرت گرفته از مدل **GPT-3.5 Turbo** (از طریق AvalAI API).
-* **Monetization:** پیاده‌سازی **Poolakey SDK** جهت اتصال به درگاه پرداخت کافه‌بازار.
-* **Firebase Suite:** * **Analytics:** تحلیل رفتار کاربر.
-    * **Crashlytics:** گزارش‌گیری خطاها و پایداری برنامه.
-    * **Performance:** مانیتورینگ سرعت شبکه و اپلیکیشن.
-    * **FCM:** ارسال نوتیفیکیشن‌های اطلاع‌رسانی.
-* **UI Components:** استفاده از `ChipNavigationBar` و `Lottie` برای تجربه کاربری روان.
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="img1.jpg" width="250px" /><br />
+        <b>Home/Conversion</b>
+      </td>
+      <td align="center">
+        <img src="img2.jpg" width="250px" /><br />
+        <b>AI Chat UI</b>
+      </td>
+      <td align="center">
+        <img src="img3.jpg" width="250px" /><br />
+        <b>Support & Contact</b>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-## 📲 Screenshots | تصاویر برنامه
+## 🛠️ Technologies | تکنولوژی‌های به کار رفته
 
-### Screenshots / تصاویر برنامه
-
-<table>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img1.jpg" width="250" /><br><sub>Home/Conversion</sub></td>
-    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img2.jpg" width="250" /><br><sub>AI Chat UI</sub></td>
-    <td><img src="https://raw.githubusercontent.com/mr-coder20/PERSIANEFOOTBALL/main/img3.png" width="250" /><br><sub>Support & Contact</sub></td>
-  </tr>
-</table>
+* **Architecture:** مدیریت پیشرفته Fragment‌ها و نویگیشن بار مدرن.
+* **Networking:** بهره‌گیری از **Retrofit 2 & OkHttp** برای فراخوانی API.
+* **AI Engine:** قدرت گرفته از مدل **GPT-3.5 Turbo** (از طریق AvalAI API).
+* **Monetization:** پیاده‌سازی **Poolakey SDK** جهت اتصال به درگاه پرداخت کافه‌بازار.
+* **Firebase Suite:** شامل Analytics، Crashlytics و Performance Monitoring.
 
 ---
 
 ## ⚙️ How to Use | نحوه استفاده
 
-1. **بخش محاسبات:** واحد ورودی و خروجی را انتخاب کنید. برنامه به صورت هوشمند فیلدهای مورد نیاز (چگالی، جرم مولی و ...) را برای شما نمایش می‌دهد.
-2. **هوش مصنوعی:** در بخش AI می‌توانید سوالات خود را بپرسید. شما در ابتدا **۵ شانس رایگان** دارید.
-3. **شارژ اعتبار:** در صورت اتمام شانس‌ها، از طریق دکمه پرداخت می‌توانید اعتبار خود را از طریق کافه‌بازار افزایش دهید.
-4. **پشتیبانی:** از طریق بخش Call می‌توانید مستقیماً با توسعه‌دهنده در تلگرام یا گیت‌هاب در ارتباط باشید.
+1. **بخش محاسبات:** واحد ورودی و خروجی را انتخاب کنید تا فیلدها ظاهر شوند.
+2. **هوش مصنوعی:** در بخش AI می‌توانید سوالات خود را بپرسید (۵ شانس اول رایگان).
+3. **شارژ اعتبار:** از طریق درگاه مستقیم کافه‌بازار اعتبار چت تهیه کنید.
 
 ---
 
 ## 📦 Installation | نصب
-
-Clone the repository and open it in Android Studio:
 
 ```bash
 git clone [https://github.com/mr-coder20/solitpy.git](https://github.com/mr-coder20/solitpy.git)
