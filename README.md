@@ -83,3 +83,10 @@
 
 ```bash
 git clone [https://github.com/mr-coder20/solitpy.git](https://github.com/mr-coder20/solitpy.git)
+
+📬 Contact | تماس با من
+GitHub: mr-coder20
+
+Telegram: @a_god_3_6_9
+
+✨ Solitpy - Empowering Science with AI
